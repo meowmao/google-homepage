@@ -1,9 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+}
 a{
     text-decoration: none;
     color: black;
 }
 
-a svg{
+a svg{ /*app icon*/ 
     width: 20px;
-    height 20px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navi{
+    height: 3.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: column wrap;
+    background: red;
+    padding: 0.875rem 1.187rem 0.875rem 0;
+}
+
+.navi .__gmail{
+margin-right: 1rem;
+}
+
+.navi .__apps{
+    width: 100px;
+    height:100px;
 }
