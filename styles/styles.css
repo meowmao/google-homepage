@@ -3,8 +3,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: black;
-    font-size: 0.8125rem;
+    font-size: 14px;
 }
 
 a svg{ /*app icon*/ 
@@ -12,6 +11,13 @@ a svg{ /*app icon*/
     height: 20px;
     padding: 0.25rem;
     font-weight: unset;
+}
+
+p{
+    font-size: 14px;
+    margin-top:0;
+    margin-bottom:0;
+
 }
 
 .navi{
@@ -22,17 +28,26 @@ a svg{ /*app icon*/
     flex-wrap: column wrap;
     margin-top: 0.625rem;
     margin-right: 1.0625rem;
+
+}
+
+.navi a{
+    color: black;
 }
 
 
 .navi .__gmail{
     margin-right: 1rem;
+    
 }
 
 .navi .__images{
     margin-right: 1.125rem;
 }
 
+.link{
+    color: rgba(0,0,0,0.50);
+}
 .link:hover{
     text-decoration: underline;
 }
@@ -61,8 +76,11 @@ a svg{ /*app icon*/
     color: white;  
 }
 
+.navi .__sign-in:hover{
+    background: rgba(16, 115, 232, 0.75);
+}
+
 .logo{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,11 +95,11 @@ a svg{ /*app icon*/
  justify-content: center;
  align-items: center;
  flex-flow: column wrap;
- border: 1px solid blue;
 }
 
 .search .__search-bar{
     width: 90%;
+    max-width: 583px;
     border-radius: 50px;
     margin-bottom: 29px;
     height: 45px;
@@ -112,14 +130,17 @@ a svg{ /*app icon*/
 
 .search .__search-btn{
     margin-bottom: 30px;
+    
 }
 
 .search .__search-btn input{
-    /* border: 1px solid green; */
     background: rgba(243, 243, 243, 0.5);
     padding: 9px;
     border: none;
     outline: none;
+    font-size: 14px;
+    color: rgba(0,0,0,0.75);
+
 }
 
 .search .__search-btn input:hover{
@@ -130,3 +151,61 @@ a svg{ /*app icon*/
     margin-right: 42px;
 }
 
+.language{
+    text-align: center;
+}
+
+.language a:first-child{
+    margin:0 12px;
+
+}
+
+.language a{
+    color: blue;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background: rgb(250, 248, 248);
+
+}
+
+.footer .__country{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.footer .__country p{
+    padding-left:29px;
+    color: rgba(0,0,0,0.50);
+}
+
+.footer .__country, .footer .__other-links{
+    padding: 15px 0;
+}
+
+
+.footer .__other-links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+.footer .__other-links .__other-links-left{
+
+}
+
+.footer .__other-links .__other-links-right{
+
+}
+
+.pad:not(:last-child){
+    margin-right: 33px;
+}
