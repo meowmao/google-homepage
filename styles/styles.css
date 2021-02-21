@@ -4,33 +4,66 @@ body{
 a{
     text-decoration: none;
     color: black;
+    font-size: 0.8125rem;
 }
 
 a svg{ /*app icon*/ 
     width: 20px;
     height: 20px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    padding: 0.25rem;
+    font-weight: unset;
 }
 
 .navi{
-    height: 3.75rem;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: column wrap;
-    background: red;
-    padding: 0.875rem 1.187rem 0.875rem 0;
+    /* padding: 0.625rem 1.187rem 0 0; */
+    margin-top: 10px;
+    margin-right: 17px;
 }
 
+
 .navi .__gmail{
-margin-right: 1rem;
+    margin-right: 1rem;
+}
+
+.navi .__images{
+    margin-right: 1.125rem;
+}
+
+.navi .__gmail:hover, .navi .__images:hover{
+    text-decoration: underline;
 }
 
 .navi .__apps{
-    width: 100px;
-    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.125rem;
 }
+
+.navi .__apps:hover{
+    background-color: rgb(230, 227, 227);
+    border-radius: 50%;
+}
+
+.navi .__aps:hover{
+    background: 
+    
+}
+
+.navi .__sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(16, 115, 232);
+    width: 6rem;
+    height: 2.375rem;
+    border-radius: 5px;
+    color: white;  
+}
+
+ 
