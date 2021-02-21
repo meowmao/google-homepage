@@ -198,6 +198,20 @@ p{
     padding-right: 29px;
 }
 
+/* for mobile*/
+@media only screen and (max-width: 600px){
+    .footer .__other-links{
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .__other-links  .__other-links-right{
+        margin-top: 25px;
+
+    }
+}
+
 .footer .__other-links .__other-links-left{
 
 }
