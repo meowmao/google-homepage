@@ -180,6 +180,9 @@ p{
     padding-right: 29px;
 }
 
+.footer .__other-links-right{
+    padding-right: 29px;
+}
 .footer .__country, .footer .__other-links{
     padding-top:15px;
     padding-bottom: 15px;
