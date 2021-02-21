@@ -90,6 +90,10 @@ a svg{ /*app icon*/
     align-items: center;
 }
 
+.search .__search-bar:hover, .search .__search-bar:active{
+    box-shadow: 0 2px 5px rgb(184, 180, 180);
+}
+
 .search .__search-bar .__mag svg{
     height: 30px;
     margin-left: 8px;
@@ -103,5 +107,26 @@ a svg{ /*app icon*/
 
 .search .__search-bar input:focus, .search .__search-bar input:hover{
     outline: none;
+
+}
+
+.search .__search-btn{
+    margin-bottom: 30px;
+}
+
+.search .__search-btn input{
+    /* border: 1px solid green; */
+    background: rgba(243, 243, 243, 0.5);
+    padding: 9px;
+    border: none;
+    outline: none;
+}
+
+.search .__search-btn input:hover{
+    box-shadow: 0 2px 5px rgb(184, 180, 180);
+}
+
+.search .__search-btn .__google-search{
+    margin-right: 42px;
 }
 
