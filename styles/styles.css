@@ -1,6 +1,7 @@
 body{
     font-family: Arial, sans-serif;
 }
+
 a{
     text-decoration: none;
     font-size: 14px;
@@ -17,7 +18,6 @@ p{
     font-size: 14px;
     margin-top:0;
     margin-bottom:0;
-
 }
 
 .navi{
@@ -28,17 +28,14 @@ p{
     flex-wrap: column wrap;
     margin-top: 0.625rem;
     margin-right: 1.0625rem;
-
 }
 
 .navi a{
     color: black;
 }
 
-
 .navi .__gmail{
-    margin-right: 1rem;
-    
+    margin-right: 1rem;  
 }
 
 .navi .__images{
@@ -64,7 +61,6 @@ p{
     border-radius: 50%;
 }
 
-
 .navi .__sign-in{
     display: flex;
     align-items: center;
@@ -86,7 +82,6 @@ p{
     align-items: center;
     margin-top: 15px;
     margin-bottom: 30px;
-
 }
 
 .search{
@@ -112,7 +107,7 @@ p{
     box-shadow: 0 2px 5px rgb(184, 180, 180);
 }
 
-.search .__search-bar .__mag svg{
+.search .__search-bar .__mag{
     height: 30px;
     margin-left: 8px;
 }
@@ -125,12 +120,10 @@ p{
 
 .search .__search-bar input:focus, .search .__search-bar input:hover{
     outline: none;
-
 }
 
 .search .__search-btn{
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;  
 }
 
 .search .__search-btn input{
@@ -140,7 +133,6 @@ p{
     outline: none;
     font-size: 14px;
     color: rgba(0,0,0,0.75);
-
 }
 
 .search .__search-btn input:hover{
@@ -157,7 +149,6 @@ p{
 
 .language a:first-child{
     margin:0 12px;
-
 }
 
 .language a{
@@ -171,25 +162,16 @@ p{
     justify-content: flex-end;
     position: fixed;
     bottom: 0;
-    left:0;
+    left: 0;
     background: rgb(250, 248, 248);
-
 }
 
 .footer .__country{
     width: 100%;
     border-bottom: 1px solid rgba(0,0,0,0.25);
-}
-
-.footer .__country p{
-    padding-left:29px;
     color: rgba(0,0,0,0.50);
+    padding-left: 29px;
 }
-
-.footer .__country, .footer .__other-links{
-    padding: 15px 0;
-}
-
 
 .footer .__other-links{
     display: flex;
@@ -197,6 +179,12 @@ p{
     padding-left: 29px;
     padding-right: 29px;
 }
+
+.footer .__country, .footer .__other-links{
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
 
 /* for mobile*/
 @media only screen and (max-width: 600px){
@@ -206,18 +194,9 @@ p{
         align-items: center;
     }
 
-    .footer .__other-links  .__other-links-right{
+    .footer .__other-links .__other-links-right{
         margin-top: 25px;
-
     }
-}
-
-.footer .__other-links .__other-links-left{
-
-}
-
-.footer .__other-links .__other-links-right{
-
 }
 
 .pad:not(:last-child){
